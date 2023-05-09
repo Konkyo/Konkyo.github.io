@@ -1,0 +1,123 @@
+<!Doctype html>
+<html>
+    <!--Head-->
+    <head>
+
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width-device-width">
+        <title>Konrad Cwiklowski</title>
+        <link rel="stylesheet" type="text/css" href="css/portfolio.css">
+    </head>
+
+    <!--Body-->
+    <body>
+
+        <!--Navbar-->
+        <div class="Navbar">
+            <a class="active" href="#Home">Home</a>
+            <a href="#About">About</a>
+            <a href="#GitHub">GitHub</a>
+            <a href="#Contact">Contact</a>
+        </div>
+
+        <!--Breaks after navbar-->
+        <br>
+        <br>
+
+        <!--Background video-->
+        <div id="Home">
+            <video autoplay muted loop id="Typing_Video">
+                <source src="images/videos/video_1.mp4" type="video/mp4">
+                Your browser does not support HTML5 videos
+            </video>
+        </div>
+
+        <!--Video Text-->
+        <div class="Video_Text">
+            <h1 class="white text">Pitman's Training Portfolio</h1>
+            <strong>
+                <p class="center">
+                    <q>Testing by itself does not improve software quality.
+                    <br>Test results are an indicator of quality, but in and of themselves, they don't improve it.
+                    <br>Trying to improve software quality by increasing the amount of testing is like trying to lose weight by weighing yourself more often. What you eat before you step onto the scale determines
+                     how much you will weigh, and the software development techniques you use determine how many errors testing will find.
+                    <br>If you want to lose weight, don't buy a new scale; change your diet. If you want to improve your software, don't test more; develop better.
+                    </q>
+                    <br> -Steve McConnell
+                    <br>
+                    <br> My name is Konrad Cwiklowski.Welcome to my portfolio website.On it, I will tell you about my background and experience.
+                    <br>
+                    <br>Thank you for stopping by!
+                </p>
+            </strong>
+        </div>
+
+        <!--About Section-->
+        <div class="Row" id="About">
+            <!--Left column-->
+            <div class="Column_2">
+                <img src="images/photo_1.png" alt="something went wrong">
+            </div>
+
+            <!--right column-->
+            <div class="Column_1">
+                <h1>About</h1>
+                <p>
+                    I am a student of software development who is just taking his first baby steps.
+                    <br>
+                    <br>I'm still in a process of getting my diploma from <a href="https://www.pitman-training.ie/" target="_blank">Training Centre in Ireland.</a>I'm training in following web and programming languages: HTML, CSS and JavaScript.
+                    <br>
+                    <br>In the future I'm planning to expand my experience to more programming languages and at the moment I would love to get a chance to experience working with other people on the projects.
+                </p>
+            </div>
+        </div>
+
+        <!--GitHub-->
+        <div class="Row" id="GitHub">
+            <!--Left column-->
+            <div class="Column_1">
+                <h1>GitHub</h1>
+                <p>
+                    You can view my Github profile &lpar;which is very scarce at the moment&rpar;here 
+                    <br>
+                    <p class="center"><a href="https://github.com/Konkyo" target="_blank">GitHub</a>
+                </p>
+            </div>
+
+            <!--Right Column-->
+            <div class="Column_2">
+                <a href="https://github.com/Konkyo" target="_blank"><img src="images/GitHub.png" alt="GitHub Logo"></a>
+            </div>
+        </div>
+
+        <!--Contact Section-->
+        <div class="Row" id="Contact">
+            <!--Left Coulmn-->
+            <div class="Column_2 Column_tall">
+                <img src="images/photo_2.png" alt="something_went_wrong">
+            </div>
+            <!--Right Column-->
+            <div class="Column_1 Column_tall">
+            <h1>Contact</h1>
+
+            <form action="https://formspree.io/f/xdovbvlk" method="POST"> <!-- Here we are utilizing a 3rd party service to submit the contact form data, insert your formspree endpoint in the action attribute -->
+                <label>Name:</label>
+                    <input type="text" placeholder="Please enter your name here">
+                <label>Email:</label>
+                    <input type="text" id="Email" name="Email" placeholder="Please enter your email here">
+                <label>Message:</label>
+                    <input type="text" id="Message" name="Message" placeholder="Please write your message here">
+                    <input type="submit" value="SUBMIT">
+            </form>
+            </div>
+        </div>
+
+        <!--Footer-->
+        <footer>
+            <p>
+                <p class="center>">&copy Konkyo95@gmail.com</p>
+            </p>
+        </footer>
+
+    </body>
+</html>
