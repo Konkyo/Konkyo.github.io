@@ -1,1 +1,0 @@
-# Konkyo.github.io
